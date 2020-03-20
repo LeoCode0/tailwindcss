@@ -1,0 +1,20 @@
+{
+  "name": "Platzi Food",
+  "version": "1.0.0",
+  "description": "Platzi food es un proyecto hecho con Tailwind css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeoCode0/tailwindcss.git"
+  },
+  "keywords": [],
+  "author": "Leonardo Espinoza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeoCode0/tailwindcss/issues"
+  },
+  "homepage": "https://github.com/LeoCode0/tailwindcss#readme"
+}
