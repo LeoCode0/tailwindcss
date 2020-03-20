@@ -1,10 +1,10 @@
 {
-  "name": "Platzi Food",
+  "name": "platzi_food",
   "version": "1.0.0",
   "description": "Platzi food es un proyecto hecho con Tailwind css",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "postcss css/tailwind.css -o public/css/style.css"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/LeoCode0/tailwindcss/issues"
   },
-  "homepage": "https://github.com/LeoCode0/tailwindcss#readme"
+  "homepage": "https://github.com/LeoCode0/tailwindcss#readme",
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  }
 }
