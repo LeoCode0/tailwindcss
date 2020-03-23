@@ -14050,6 +14050,30 @@ video {
   transform: scale(2);
 }
 
+.alert{
+  background-color: #f56565;
+  color: #000;
+  margin: 1rem;
+  padding: 1rem;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+  width: 10rem;
+}
+
+.alert-danger{
+  background-color: #c53030;
+  color: #fff;
+}
+
+.alert-warning{
+  background-color: #ecc94b;
+}
+
+.alert-info{
+  background-color: #2b6cb0;
+  color: #fff;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
