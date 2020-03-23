@@ -4,7 +4,7 @@
   "description": "Platzi food es un proyecto hecho con Tailwind css",
   "main": "index.js",
   "scripts": {
-    "build": "postcss css/tailwind.css -o public/css/style.css"
+    "build": "postcss css/tailwind.css -o public/css/style.css -w"
   },
   "repository": {
     "type": "git",
