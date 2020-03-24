@@ -2,6 +2,32 @@
 
 @tailwind components;
 
+
+.form-control{
+    @apply w-full leading-snug text-gray-800 bg-gray-200 border border-blue-300 py-1 px-4 rounded;
+}
+
+.form-control:hover{
+    @apply bg-white;
+}
+
+
+.form-control:focus{
+    @apply outline-none shadow-outline;
+}
+
+.btn-primary{
+    @apply bg-yellow-600;
+}
+
+.btn{
+    @apply block mx-auto bg-gray-500 px-4 py-1 rounded shadow-xl;
+}
+
+.btn:hover{
+    @apply shadow-none bg-gray-600 text-white;
+}
+
 @tailwind utilities;
 
 @responsive{
@@ -37,22 +63,4 @@
 .alert-info{
     @apply bg-blue-700;
     @apply  text-white;
-}
-
-h1{
-    @apply text-3xl; 
-    @apply text-green-700; 
-    @apply font-semibold;
-}
-
-h2{
-    @apply text-3xl; 
-    @apply text-yellow-700; 
-    @apply font-semibold;
-}
-
-h3{
-    @apply text-xl; 
-    @apply text-red-700; 
-    @apply font-semibold;
 }

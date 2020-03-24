@@ -623,6 +623,52 @@ video {
   }
 }
 
+.form-control{
+  width: 100%;
+  line-height: 1.375;
+  color: #2d3748;
+  background-color: #edf2f7;
+  border-width: 1px;
+  border-color: #90cdf4;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.25rem;
+}
+
+.form-control:hover{
+  background-color: #fff;
+}
+
+.form-control:focus{
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+.btn-primary{
+  background-color: #d69e2e;
+}
+
+.btn{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #a0aec0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.btn:hover{
+  box-shadow: none;
+  background-color: #718096;
+  color: #fff;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -14232,24 +14278,6 @@ video {
 .alert-info{
   background-color: #2b6cb0;
   color: #fff;
-}
-
-h1{
-  font-size: 1.875rem;
-  color: #2f855a;
-  font-weight: 600;
-}
-
-h2{
-  font-size: 1.875rem;
-  color: #b7791f;
-  font-weight: 600;
-}
-
-h3{
-  font-size: 1.25rem;
-  color: #c53030;
-  font-weight: 600;
 }
 
 @media (min-width: 640px) {
