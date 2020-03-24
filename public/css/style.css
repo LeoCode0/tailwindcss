@@ -14234,6 +14234,24 @@ video {
   color: #fff;
 }
 
+h1{
+  font-size: 1.875rem;
+  color: #2f855a;
+  font-weight: 600;
+}
+
+h2{
+  font-size: 1.875rem;
+  color: #b7791f;
+  font-weight: 600;
+}
+
+h3{
+  font-size: 1.25rem;
+  color: #c53030;
+  font-weight: 600;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
