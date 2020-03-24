@@ -9,12 +9,41 @@
 </head>
 
 <body>
-    <header class="bg-secondary flex justify-between items-center px-4">
-        <div class="text-white"><img class="h-8 py-1" src="images/índice.svg" alt=""></div>
-        <div class="text-white text-3xl">&equiv;</div>
-    </header>    
+    <nav class="bg-secondary text-gray-100">
+        <header class="flex justify-between items-center px-4">
+            <div class="text-white"><img class="h-8 py-1" src="images/índice.svg" alt=""></div>
+            <div class="text-white text-3xl">&equiv;</div>
+        </header>    
+        <div class="my-1 mx-2">
+            <input class="form-control" placeholder="Search" type="search">
+        </div>
+        <div class="py-1 mx-2 md:flex justify-around">
+            <div class="flex ">
+                Precio:
+                <div class="ml-2">$</div>
+                <div class="ml-2">$$</div>
+                <div class="ml-2">$$$</div>
+                <div class="ml-2  text-primary">$$$$</div>
+            </div>
+            <div class="flex">
+                <div class="">
+                    Calificación
+                </div>
+                <div class="ml-2 text-primary">&starf;</div>
+                <div class="ml-px text-primary">&starf;</div>
+                <div class="ml-px text-primary">&starf;</div>
+                <div class="ml-px text-primary" >&starf;</div>
+                <div class="ml-px">&star;</div>
+            </div>
+            <div class="">
+                <button class="btn-primary btn btn:hover">Filtrar</button>
+            </div>
+        </div>
+
+    </nav>
 
     <main class=" mx-auto mb-8">
+
         <div class="h-56 md:h-80 bg-cover bg-center bg-bottom bg-no-repeat" style="background-image: url(https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80)">
         </div>
         <div class="container mx-auto md:flex">
@@ -55,7 +84,7 @@
                 <textarea class="form-control placeholder-secondary form-control:hover form-control:focus" name="" id="" cols="30" rows="10"></textarea>
             </div>
             <div class="">
-                <button class="btn-primary btn btn:hover">Enviar</button>
+                <button class="btn-primary btn btn:hover mx-auto">Enviar</button>
             </div>
         </div>
     </main>

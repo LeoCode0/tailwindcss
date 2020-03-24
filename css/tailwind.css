@@ -11,17 +11,17 @@
     @apply bg-white;
 }
 
-
 .form-control:focus{
     @apply outline-none shadow-outline;
 }
 
-.btn-primary{
-    @apply bg-yellow-600;
+.btn{
+    @apply block bg-gray-500 px-4 py-1 rounded shadow-xl;
 }
 
-.btn{
-    @apply block mx-auto bg-gray-500 px-4 py-1 rounded shadow-xl;
+
+.btn-primary{
+    @apply bg-yellow-600;
 }
 
 .btn:hover{
